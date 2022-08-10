@@ -1,0 +1,4 @@
+finds "text_to_search" in all files within location /appl/map
+
+find /appl/map -type f -exec grep -il "text_to_search" {} +
+
